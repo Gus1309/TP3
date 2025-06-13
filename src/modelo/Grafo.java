@@ -89,7 +89,7 @@ public class Grafo<T> implements IGrafo<T> {
         System.out.print(actual.getValor() + " ");
         for (INodo<T> vecino : actual.getVecinos()) {
             if (!visitados.contains(vecino.getValor())) {
-                dfsRec((Nodo<T>) vecino, visitados);
+                dfsRec ((Nodo<T>) vecino, visitados);
             }
         }
     }

@@ -6,6 +6,6 @@ public interface IGrafo<T> {
     void agregarArista(T origen, T destino);
     void mostrarMatrizAdyacencia();
     void mostrarListaAdyacencia();
-    void bfs(T inicio);
-    void dfs(T inicio);
+    void bfs (T inicio);
+    void dfs (T inicio);
 }

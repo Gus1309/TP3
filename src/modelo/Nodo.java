@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Nodo<T> implements INodo<T> {
     private T valor;
-    private List<INodo<T>> vecinos;
+    private List <INodo<T>> vecinos;
 
     public Nodo(T valor) {
         this.valor = valor;

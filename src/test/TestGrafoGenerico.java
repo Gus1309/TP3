@@ -3,7 +3,7 @@ package test;
 import modelo.*;
 
 public class TestGrafoGenerico {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Grafo<Persona> grafo = new Grafo<>();
 
         Persona terry = new Persona("Terry");
