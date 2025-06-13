@@ -7,7 +7,7 @@ public class TestGrafoGenerico {
         Grafo<Persona> grafo = new Grafo<>();
 
         Persona terry = new Persona("Terry");
-        Persona bruno = new Persona("Bruno");
+        Persona horacio = new Persona("Horacio");
         Persona carla = new Persona("Carla");
         Persona daniel = new Persona("Daniel");
         Persona emilia = new Persona("Emilia");
@@ -15,15 +15,15 @@ public class TestGrafoGenerico {
         Persona gabriela = new Persona("Gabriela");
 
         grafo.agregarNodo(terry);
-        grafo.agregarNodo(bruno);
+        grafo.agregarNodo(horacio);
         grafo.agregarNodo(carla);
         grafo.agregarNodo(daniel);
         grafo.agregarNodo(emilia);
         grafo.agregarNodo(francisco);
         grafo.agregarNodo(gabriela);
 
-        grafo.agregarArista(terry, bruno);
-        grafo.agregarArista(bruno, carla);
+        grafo.agregarArista(terry, horacio);
+        grafo.agregarArista(horacio, carla);
         grafo.agregarArista(carla, daniel);
         grafo.agregarArista(daniel, terry);
         grafo.agregarArista(terry, emilia);
